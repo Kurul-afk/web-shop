@@ -13,7 +13,7 @@ const App = () => {
       <ToastContainer />
       <BrowserRouter>
         <Header />
-        <div style={{ paddingTop: "100px" }}>
+        <div>
           <Routing />
         </div>
         <Footer />
