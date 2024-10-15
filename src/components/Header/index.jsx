@@ -12,7 +12,7 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <header className="bg-slate-100 w-full ml-auto mr-auto fixed">
-      <div className="flex w-11/12 mx-auto my-2">
+      <div className="flex items-center w-11/12 mx-auto my-2">
         <div
           className="flex items-center cursor-pointer w-16 mr-32"
           onClick={() => navigate("/")}
