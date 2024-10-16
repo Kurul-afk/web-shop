@@ -7,6 +7,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ReviewsList from "./pages/ReviewsList";
+import ProductList from "./pages/ProductList";
 
 const Routing = () => {
   return (
@@ -15,6 +16,7 @@ const Routing = () => {
       <Route path="/about" element={<AboutPage />} />
       <Route path="/reviews" element={<ReviewsList />} />
       <Route path="/user-profile" element={<UserProfilePage />} />
+      <Route path="/product-list" element={<ProductList />} />
       <Route path="/sign-in" element={<LoginPage />} />
       <Route path="/sign-up" element={<RegisterPage />} />
       <Route path="*" element={<NotFoundPage />} />

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const MainPage = () => {
-  return <div>main</div>;
+  return <div>Main</div>;
 };
 
 export default MainPage;
